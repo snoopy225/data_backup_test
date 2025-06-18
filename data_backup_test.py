@@ -9,7 +9,7 @@ import tarfile
 import paramiko
 
 # config.yml 파일 읽기
-config_path = '/home/ubuntu/kosmos/data_backup/config.yml'  # 리눅스 절대 경로로 수정
+config_path = 'config.yml'  # 리눅스에서 사용 시 절대 경로로 수정
 with open(config_path, 'r', encoding='utf-8') as file:
     config = yaml.safe_load(file)
 
@@ -177,7 +177,7 @@ if __name__ == '__main__':
 # import zipfile
 
 # # config.yml 파일 읽기
-# config_path = '/home/ubuntu/kosmos/data_backup/config.yml'  # 리눅스 절대 경로로 수정
+# config_path = 'config.yml'  # 리눅스에서 사용 시 절대 경로로 수정
 # with open(config_path, 'r', encoding='utf-8') as file:
 #     config = yaml.safe_load(file)
 
